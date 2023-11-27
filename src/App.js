@@ -47,7 +47,7 @@ function App() {
             </div>
             <div>
               <p className="mb-4">While pursuing a degree in Industrial Engineering at Purdue University, I discovered a passion for programming and analytical problem solving. After working a couple of internships in the manufacturing industry, I decided to pursue a career in Tech. Since then I've had the privilege of working for a small business primarily servicing the manufacturing industry, and a rapidly scaling tech startup. Both of these companies have allowed me to combine my soft skills and desire to interract with customers with my technical abilities. In addition to this, I've been able to practice my technical skills by pursuing a number of personal (primarly sports focused) projects.</p>
-              <p>When I'm not working or building out side projects, I can be found snowboarding, camping, going to concerts (mostly at Red Rocks), and watching way too much college basketball.</p>
+              <p>When I'm not working or building out side projects, I can be found snowboarding, camping, going to concerts (mostly at Red Rocks), reading sci fi and fantasy novels, or watching way too much college basketball.</p>
             </div>
           </section>
           <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
