@@ -180,7 +180,7 @@ function App() {
           </section>
           <footer className="max-w-md pb-16 text-sm text-stone-500 sm:pb-0">
             <p>
-              This portfolio website was built with <a target="_blank" rel="noreferrer" href="https://react.dev/" className="text-stone-400">React</a> and <a target="_blank" rel="noreferrer" href="https://tailwindcss.com/" className="text-stone-400">Tailwind CSS</a>. Coded in <a target="_blank" rel="noreferrer" href="https://code.visualstudio.com/" className="text-stone-400">Visual Studio Code</a>.    
+              This portfolio website was built with <a target="_blank" rel="noreferrer" href="https://react.dev/" className="text-stone-400">React</a> and <a target="_blank" rel="noreferrer" href="https://tailwindcss.com/" className="text-stone-400">Tailwind CSS</a>, coded using <a target="_blank" rel="noreferrer" href="https://code.visualstudio.com/" className="text-stone-400">Visual Studio Code</a>, and deployed with <a target="_blank" rel="noreferrer" href="https://vercel.com/" className="text-stone-400">Vercel</a>.    
             </p>
           </footer>
         </main>
