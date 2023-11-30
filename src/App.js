@@ -1,5 +1,6 @@
 import SkillBubble from "./components/SkillBubble";
 import ScrollLink from "./components/ScrollLink";
+import Pdf from "./static/resume.pdf";
 
 function App() {
   return (
@@ -70,7 +71,7 @@ function App() {
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                               <span className="inline-block">
                                  Quantive
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px group-hover:translate-x-1 group-hover:-translate-y-1">
                                   <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path>
                                 </svg>
                               </span>
@@ -126,7 +127,7 @@ function App() {
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                               <span className="inline-block">
                                  Configure One (now Revalize)
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px group-hover:translate-x-1 group-hover:-translate-y-1">
                                   <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path>
                                 </svg>
                               </span>
@@ -169,6 +170,21 @@ function App() {
                   </div>
                 </li>
               </ol>
+              <div className="mt-12">
+                <a href={Pdf} without="true" rel="noopener noreferrer" target="_blank" className="inline-flex items-center font-medium leading-tight text-stone-200 font-semibold text-stone-200 group">
+                  <span>
+                    <span className="border-b border-transparent pb-px transition group-hover:border-yellow-300 motion-reduce:transition-none">
+                      View Full Resume
+                      <span className="whitespace-nowrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
+                          <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd">
+                          </path>
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
             </div>
           </section>
           <footer className="max-w-md pb-16 text-sm text-stone-500 sm:pb-0">
