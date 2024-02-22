@@ -13,9 +13,10 @@ function App() {
             </div>
             <div className="">
                 <h1 className="text-4xl font-bold tracking-tight text-stone-200 sm:text-4xl">Conor Lamb</h1>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Customer Success Engineer</h2>
+                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Customer Success Engineer | Web Developer</h2>
+                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Software Implementation and Development</h2>
               </div>
-            <p className="mt-4 leading-normal">I lead software implementations, provide technical guidance, and build custom interfaces and other cool stuff on the web.</p>
+            <p className="mt-4 leading-normal">I consult on software implementations, provide technical assistance and guidance, and build cool interfaces on the web. </p>
             <nav className="nav hidden lg:block">
               <ul className="mt-16 w-max">
                 <li>
@@ -23,6 +24,9 @@ function App() {
                 </li>
                 <li>
                   <ScrollLink to="#experience">Experience</ScrollLink>
+                </li>
+                <li>
+                  <ScrollLink to="#projects">Projects</ScrollLink>
                 </li>
               </ul>
             </nav>
@@ -53,7 +57,7 @@ function App() {
             </div>
             <div>
               <p className="mb-4">While pursuing a degree in Industrial Engineering at Purdue University, I discovered a passion for programming and analytical problem solving. After working a couple of internships in the manufacturing industry, I decided to pursue a career in Tech. Since then I've had the privilege of working for a small business primarily servicing the manufacturing industry, and a rapidly scaling tech startup. Both of these companies have allowed me to combine my soft skills and desire to interract with customers with my technical abilities. In addition to this, I've been able to practice my technical skills by pursuing a number of personal (primarly sports focused) projects.</p>
-              <p>When I'm not working or building out side projects, I can be found snowboarding, camping, going to concerts (mostly at Red Rocks), reading sci fi and fantasy novels, or watching way too much college basketball.</p>
+              <p>When I'm not working or building out side projects, I can be found snowboarding, camping, going to concerts (mostly at Red Rocks), reading sci fi and fantasy novels, or watching college basketball.</p>
             </div>
           </section>
           <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
@@ -175,7 +179,8 @@ function App() {
                   </div>
                 </li>
               </ol>
-              <div className="mt-12">
+            </div>
+            <div className="mt-12">
                 <a href={Pdf} without="true" rel="noopener noreferrer" target="_blank" className="inline-flex items-center font-medium leading-tight text-stone-200 font-semibold text-stone-200 group">
                   <span>
                     <span className="border-b border-transparent pb-px transition group-hover:border-yellow-300 motion-reduce:transition-none">
@@ -190,6 +195,57 @@ function App() {
                   </span>
                 </a>
               </div>
+          </section>
+          {/* Conor Working Here */}
+          <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-stone-200 lg:sr-only">Projects</h2>
+            </div>
+            <div>
+              <ol className="group/list">
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-stone-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg">
+                    </div>
+                    <div className="z-10 sm:order-2 sm:col-span-6">
+                      <h3>
+                        <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-stone-300 focus-visible:text-stone-300  group/link text-base" href="https://meadfantasyfootball.com" target="_blank" rel="noreferrer" aria-label="Fantasy Football Data Hub">
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>Fantasy Football Data Hub
+                            <span className="inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px group-hover:translate-x-1 group-hover:-translate-y-1">
+                                  <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path>
+                                </svg>
+                            </span>
+                          </span>
+                        </a>
+                        <p className="mt-2 text-sm leading-normal">Website built on the MERN stack that interacts with ESPN and Sleeper API to gather and visualize data surrounding Fantasy Football Stats. </p>
+                        <ul className="mt-2 flex flex-wrap mb-6">
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>React</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>MongoDB</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>Express</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>Javascript</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>Data Visualization</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>Data Modeling</SkillBubble>
+                          </li>
+                        </ul>
+                        <img src="meadfantasyfootball2.png" alt="Fantasy Football Data Hub Card" loading="lazy" width="200" height="40" decoding="async" data-nimg="1" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color: "transparent"}}/>
+                      </h3>
+                    </div>
+                  </div>
+                </li>
+              </ol>
             </div>
           </section>
           <footer className="max-w-md pb-16 text-sm text-stone-500 sm:pb-0">
