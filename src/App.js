@@ -14,7 +14,7 @@ function App() {
             <div className="">
                 <h1 className="text-4xl font-bold tracking-tight text-stone-200 sm:text-4xl">Conor Lamb</h1>
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Customer Success Engineer | Web Developer</h2>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Software Implementation and Development</h2>
+                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Software Implementation |  Development</h2>
               </div>
             <p className="mt-4 leading-normal">I consult on software implementations, provide technical assistance and guidance, and build cool interfaces on the web. </p>
             <nav className="nav hidden lg:block">
@@ -222,16 +222,16 @@ function App() {
                         <p className="mt-2 text-sm leading-normal">Website built on the MERN stack that interacts with ESPN and Sleeper API to gather and visualize data surrounding Fantasy Football Stats. </p>
                         <ul className="mt-2 flex flex-wrap mb-6">
                           <li className="mr-1.5 mt-2">
-                            <SkillBubble>React</SkillBubble>
-                          </li>
-                          <li className="mr-1.5 mt-2">
                             <SkillBubble>MongoDB</SkillBubble>
                           </li>
                           <li className="mr-1.5 mt-2">
                             <SkillBubble>Express</SkillBubble>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <SkillBubble>Javascript</SkillBubble>
+                            <SkillBubble>React</SkillBubble>
+                          </li>
+                          <li className="mr-1.5 mt-2">
+                            <SkillBubble>Node</SkillBubble>
                           </li>
                           <li className="mr-1.5 mt-2">
                             <SkillBubble>Data Visualization</SkillBubble>
