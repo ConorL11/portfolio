@@ -261,7 +261,7 @@ function App() {
                             </span>
                           </span>
                         </a>
-                        <p className="mt-2 text-sm leading-normal">Website built on the MERN stack that interacts with ESPN and Sleeper API to gather and visualize data surrounding Fantasy Football Stats. </p>
+                        <p className="mt-2 text-sm leading-normal">Website built on the MERN stack that interacts with ESPN and Sleeper API to gather and visualize data involving Fantasy Football Stats.</p>
                         <ul className="mt-2 flex flex-wrap mb-6">
                           <li className="mr-1.5 mt-2">
                             <SkillBubble>MongoDB</SkillBubble>
