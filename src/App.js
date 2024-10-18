@@ -13,10 +13,10 @@ function App() {
             </div>
             <div className="">
                 <h1 className="text-4xl font-bold tracking-tight text-stone-200 sm:text-4xl">Conor Lamb</h1>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Customer Success Engineer | Web Developer</h2>
+                <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Sr Implementation Consultant | Web Developer</h2>
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-stone-200 sm:text-xl">Software Implementation |  Development</h2>
               </div>
-            <p className="mt-4 leading-normal">I consult on software implementations, provide technical assistance and guidance, and build cool interfaces on the web. </p>
+            <p className="mt-4 leading-normal">I consult and deliver on software implementations, provide technical assistance and guidance, and build cool applications and interfaces on the web. </p>
             <nav className="nav hidden lg:block">
               <ul className="mt-16 w-max">
                 <li>
@@ -56,8 +56,8 @@ function App() {
               <h2 className="text-sm font-bold uppercase tracking-widest text-stone-200 lg:sr-only">About</h2>
             </div>
             <div>
-              <p className="mb-4">While pursuing a degree in Industrial Engineering at Purdue University, I discovered a passion for programming and analytical problem solving. After working a couple of internships in the manufacturing industry, I decided to pursue a career in Tech. Since then I've had the privilege of working for a small business primarily servicing the manufacturing industry, and a rapidly scaling tech startup. Both of these companies have allowed me to combine my soft skills and desire to interract with customers with my technical abilities. In addition to this, I've been able to practice my technical skills by pursuing a number of personal (primarly sports focused) projects.</p>
-              <p>When I'm not working or building out side projects, I can be found snowboarding, camping, going to concerts (mostly at Red Rocks), reading sci fi and fantasy novels, or watching college basketball.</p>
+              <p className="mb-4">While pursuing a degree in Industrial Engineering at Purdue University, I discovered a passion for programming and analytical problem solving. After graduation, I started my career at a small business providing CPQ solutions to the manufacturing industry. I then shifted to a rapidly scaling company building OKR software. Today I am working with monday.com doing implementations and custom app development. All of these companies have allowed me to combine my soft skills and desire to interract with customers with my technical abilities. In addition to this, I've been able to practice my technical skills by pursuing a number of personal (primarly sports focused) projects.</p>
+              <p>When I'm not working or building out side projects, I can be found playing pickup basketball, snowboarding, camping, running, going to concerts (mostly at Red Rocks), reading sci fi and fantasy novels, or watching college basketball.</p>
             </div>
           </section>
           <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
@@ -76,10 +76,10 @@ function App() {
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-stone-200 mb-4">
                         <div>
-                          <a className="inline-flex items-baseline font-medium leading-tight text-stone-200 hover:text-yellow-300 focus-visible:text-yellow-300 group/link text-base" target="_blank" href="https://configureone.com" rel="noreferrer">
+                          <a className="inline-flex items-baseline font-medium leading-tight text-stone-200 hover:text-yellow-300 focus-visible:text-yellow-300 group/link text-base" target="_blank" href="https://monday.com/p/about/" rel="noreferrer">
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                               <span className="inline-block">
-                                 Revalize (Configure One Cloud)
+                                 monday.com
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-transtone-y-1 group-hover/link:transtone-x-1 group-focus-visible/link:-transtone-y-1 group-focus-visible/link:transtone-x-1 motion-reduce:transition-none ml-1 transtone-y-px group-hover:translate-x-1 group-hover:-translate-y-1">
                                   <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path>
                                 </svg>
@@ -87,14 +87,20 @@ function App() {
                           </a>
                         </div>
                       </h3>
-                      <h4 className="font-medium leading-snug text-stone-300">Senior Implementation Specialist (Contract / Part Time)</h4>
-                      <p className="mt-2 text-sm leading-normal">Configure One Cloud CPQ SME working with Professional Services</p>
+                      <h4 className="font-medium leading-snug text-stone-300">Senior Implementation Consultant</h4>
+                      <p className="mt-2 text-sm leading-normal">Leads and delivers on monday.com software implementations. Builds full stack applications to extend the platform.</p>
                       <ul className="mt-2 flex flex-wrap mb-6">
                         <li className="mr-1.5 mt-2">
-                          <SkillBubble>CPQ</SkillBubble>
+                          <SkillBubble>Node.js</SkillBubble>
                         </li>
                         <li className="mr-1.5 mt-2">
-                          <SkillBubble>JQuery</SkillBubble>
+                          <SkillBubble>React</SkillBubble>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <SkillBubble>GraphQL API</SkillBubble>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <SkillBubble>Full Stack App Development</SkillBubble>
                         </li>
                         <li className="mr-1.5 mt-2">
                           <SkillBubble>Technical Solution Design</SkillBubble>
@@ -233,7 +239,6 @@ function App() {
                 </a>
               </div>
           </section>
-          {/* Conor Working Here */}
           <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
               <h2 className="text-sm font-bold uppercase tracking-widest text-stone-200 lg:sr-only">Projects</h2>
